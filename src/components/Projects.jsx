@@ -6,6 +6,10 @@ import aiFaqHome from "../assets/projects/ai-faq/ai-faq-home.JPG";
 import aiFaqUpload from "../assets/projects/ai-faq/ai-faq-upload.JPG";
 import aiFaqAnswer from "../assets/projects/ai-faq/ai-faq-answer.JPG";
 
+import flaskApiProducts from "../assets/projects/flask-api/flask-api-products.png";
+import flaskApiProduct from "../assets/projects/flask-api/flask-api-product.png";
+import flaskApiDelete from "../assets/projects/flask-api/flask-api-delete.png";
+
 const caraTech = [
   "HTML",
   "CSS",
@@ -58,6 +62,32 @@ const aiFaqFeatures = [
   "Conversation context using the last 6 messages",
   "Chat history reset when a new PDF is uploaded",
   "Manual RAG retrieval pipeline",
+];
+
+const flaskApiTech = [
+  "Python",
+  "Flask",
+  "SQLite",
+  "SQL",
+  "REST API",
+  "JSON",
+  "Requests",
+];
+
+const flaskApiFeatures = [
+  "GET all products",
+  "Get product by ID",
+  "Create a product",
+  "Update a product",
+  "Delete a product",
+  "SQLite database persistence",
+  "Parameterized SQL queries",
+  "Input validation",
+  "400 Bad Request handling",
+  "404 Not Found handling",
+  "JSON responses",
+  "HTTP status codes",
+  "API testing",
 ];
 
 const Projects = () => {
@@ -243,6 +273,92 @@ const Projects = () => {
 
               <span className="project-demo-note">
                 Repository &amp; screenshots
+              </span>
+            </div>
+          </div>
+        </article>
+
+        {/* FLASK PRODUCT REST API */}
+
+        <article className="project-showcase project-showcase-secondary">
+          <div className="project-gallery">
+            <div className="project-main-image">
+              <img
+                src={flaskApiProducts}
+                alt="Flask Product REST API GET all products endpoint"
+              />
+            </div>
+
+            <div className="project-secondary-images">
+              <div className="project-secondary-image">
+                <img
+                  src={flaskApiProduct}
+                  alt="Flask Product REST API get product by ID endpoint"
+                />
+              </div>
+
+              <div className="project-secondary-image">
+                <img
+                  src={flaskApiDelete}
+                  alt="Flask Product REST API delete product endpoint"
+                />
+              </div>
+            </div>
+          </div>
+
+          <div className="project-content">
+            <div className="project-topline">
+              <span className="project-number">03</span>
+
+              <span className="project-type">
+                Backend / REST API
+              </span>
+            </div>
+
+            <h3>Flask Product REST API</h3>
+
+            <p className="project-description">
+              A Flask-based REST API for managing products with SQLite
+              persistence, CRUD operations, input validation, parameterized SQL
+              queries, and JSON responses.
+            </p>
+
+            <div className="project-details">
+              <div className="project-detail-block">
+                <h4>Key Functionality</h4>
+
+                <ul className="project-feature-list">
+                  {flaskApiFeatures.map((feature) => (
+                    <li key={feature}>{feature}</li>
+                  ))}
+                </ul>
+              </div>
+
+              <div className="project-detail-block">
+                <h4>Tech Stack</h4>
+
+                <div className="project-tech-list">
+                  {flaskApiTech.map((tech) => (
+                    <span className="project-tech-badge" key={tech}>
+                      {tech}
+                    </span>
+                  ))}
+                </div>
+              </div>
+            </div>
+
+            <div className="project-actions">
+              <a
+                href="https://github.com/Mansi06Salar/flask-product-rest-api"
+                target="_blank"
+                rel="noreferrer"
+                className="btn btn-primary"
+              >
+                View on GitHub
+              </a>
+
+              <span className="project-demo-note">
+                Repository &amp; API screenshots
               </span>
             </div>
           </div>
