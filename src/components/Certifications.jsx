@@ -19,11 +19,11 @@ const certifications = [
     linkText: "View Credential ↗",
   },
   {
-    issuer: "JioPC",
-    title: "AI Foundation Course",
-    date: "May 2026",
-    tags: ["Artificial Intelligence", "Foundations"],
-    credential: "/JioPC_AI_Foundation_Badge.jpg",
+    issuer: "TCS iON",
+    title: "TCS iON Career Edge - AI Foundation",
+    date: "Sep 2026",
+    tags: ["Artificial Intelligence", "Generative AI", "Prompt Engineering"],
+    credential: "/TCS_AI_Foundation_Certificate.png",
     linkText: "View Certificate ↗",
   },
 ];
