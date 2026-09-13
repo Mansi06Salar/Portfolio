@@ -82,7 +82,7 @@ const Contact = () => {
             </a>
 
             <a
-              href="/Mansi%20Salar%20Resume.pdf"
+              href="/Mansi%20Salar%20resume.pdf"
               target="_blank"
               rel="noreferrer"
               className="contact-btn"
