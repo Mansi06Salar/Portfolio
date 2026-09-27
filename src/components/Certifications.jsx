@@ -26,6 +26,14 @@ const certifications = [
     credential: "/TCS_AI_Foundation_Certificate.png",
     linkText: "View Certificate ↗",
   },
+  {
+    issuer: "TCS iON",
+    title: "TCS iON Career Edge - Generative AI Essentials",
+    date: "Sep 2026",
+    tags: ["Generative AI", "In-Context Learning", "Responsible AI"],
+    credential: "/TCS_Generative_AI_Essentials_Certificate.png",
+    linkText: "View Certificate ↗",
+  },
 ];
 
 const Certifications = () => {
