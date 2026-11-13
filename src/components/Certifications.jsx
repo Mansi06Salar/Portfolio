@@ -1,4 +1,14 @@
+
 const certifications = [
+  {
+    issuer: "Oracle",
+    title: "Oracle Certified Foundations Associate - Agentic AI",
+    date: "Nov 2026",
+    validity: "Valid until Nov 2028",
+    tags: ["Agentic AI", "Oracle Certification"],
+    credential: "http://localhost:5173/Oracle_Agentic_AI_Certificate.png",
+    linkText: "View Certificate ↗",
+  },
   {
     issuer: "Databricks",
     title: "Academy Accreditation - Generative AI Fundamentals",
