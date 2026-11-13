@@ -6,7 +6,7 @@ const certifications = [
     date: "Nov 2026",
     validity: "Valid until Nov 2028",
     tags: ["Agentic AI", "Oracle Certification"],
-    credential: "http://localhost:5173/Oracle_Agentic_AI_Certificate.png",
+    credential: "https://portfolio-seven-chi-ks6puobutu.vercel.app/Oracle_Agentic_AI_Certificate.png",
     linkText: "View Certificate ↗",
   },
   {
